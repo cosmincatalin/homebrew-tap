@@ -1,2 +1,2 @@
 # homebrew-tap
-Homebrew tap for application developed by Cosmin SANDA
+Homebrew tap for applications developed by Cosmin SANDA
