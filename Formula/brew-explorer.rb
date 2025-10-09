@@ -16,7 +16,6 @@ class BrewExplorer < Formula
 
   def install
     bin.install "brew-explorer"
-    generate_completions_from_executable(bin/"brew-explorer", "shell-completion", base_name: "brew-explorer")
   end
 
 end
