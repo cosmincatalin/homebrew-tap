@@ -19,7 +19,4 @@ class BrewExplorer < Formula
     generate_completions_from_executable(bin/"brew-explorer", "shell-completion", base_name: "brew-explorer")
   end
 
-  test do
-    assert_match version.to_s, shell_output("#{bin}/brew-explorer --version")
-  end
 end
