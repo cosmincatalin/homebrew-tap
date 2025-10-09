@@ -16,7 +16,7 @@ class BrewExplorer < Formula
 
   def install
     bin.install "brew-explorer"
-    chmod 0555, bin/"brew-explorer"
+    # chmod 0555, bin/"brew-explorer"
     generate_completions_from_executable(bin/"brew-explorer", "shell-completion", base_name: "brew-explorer")
   end
 
