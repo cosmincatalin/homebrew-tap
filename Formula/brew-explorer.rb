@@ -6,11 +6,11 @@ class BrewExplorer < Formula
   on_macos do
     on_arm do
       url "https://github.com/cosmincatalin/brew-explorer/releases/download/v#{version}/brew-explorer-#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "7572a7fedcda2785febb288924c28ef18d20526a550fa6873a6d6c8b147db916"
+      sha256 "7c282d0722deed2ce0d2d33c9ba36c6fd3eb24fd227cf5a07e4fc8e8dee23e9e"
     end
     on_intel do
       url "https://github.com/cosmincatalin/brew-explorer/releases/download/v#{version}/brew-explorer-#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "47bc7ff2f6da38779086df21bad2504e607fe742de8bd598abc51ef4c2809759"
+      sha256 "4dbb553a844bc85791fc37f27041e21002e1515cefa37fa5f198386e48e2174c"
     end
   end
 
