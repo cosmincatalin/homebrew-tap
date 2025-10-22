@@ -1,16 +1,16 @@
 class BrewExplorer < Formula
   desc "A TUI for managing and reviewing in detail which Homebrew packages are installed on the system."
   homepage "https://github.com/cosmincatalin/brew-explorer"
-  version "0.1.4"
+  version "0.1.5"
 
   on_macos do
     on_arm do
       url "https://github.com/cosmincatalin/brew-explorer/releases/download/v#{version}/brew-explorer-#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "7c282d0722deed2ce0d2d33c9ba36c6fd3eb24fd227cf5a07e4fc8e8dee23e9e"
+      sha256 "0df1de67391949d274be5b664be0b8735357886cc53d8bd94ef7b3d7335f1c38"
     end
     on_intel do
       url "https://github.com/cosmincatalin/brew-explorer/releases/download/v#{version}/brew-explorer-#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "4dbb553a844bc85791fc37f27041e21002e1515cefa37fa5f198386e48e2174c"
+      sha256 "f8419e422f1eb5f951e164d431fc7d675ffa2f9ded384c40de09e9ad94635a55"
     end
   end
 
